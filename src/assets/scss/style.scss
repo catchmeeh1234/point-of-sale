@@ -24,3 +24,10 @@
 @import "pages/dashboards";
 @import "pages/auth";
 
+.dense-2 {
+  @include mat.all-component-densities(-3);
+}
+
+.gray {
+  background-color: #f8f9fb !important;
+}

@@ -24,6 +24,8 @@ import { HeaderComponent } from './layouts/full/header/header.component';
 import { BrandingComponent } from './layouts/full/sidebar/branding.component';
 import { AppNavItemComponent } from './layouts/full/sidebar/nav-item/nav-item.component';
 
+import { MatNativeDateModule } from '@angular/material/core';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,6 +45,7 @@ import { AppNavItemComponent } from './layouts/full/sidebar/nav-item/nav-item.co
     ReactiveFormsModule,
     MaterialModule,
     TablerIconsModule.pick(TablerIcons),
+    MatNativeDateModule
   ],
   exports: [TablerIconsModule],
   bootstrap: [AppComponent],

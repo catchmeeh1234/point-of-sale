@@ -27,7 +27,9 @@ html .mat-drawer-container {
   padding: 24px;
   min-height: calc(100vh - 70px);
   margin: 0 auto;
-  max-width: $boxedWidth;
+  //max-width: $boxedWidth;
+  max-width: 100%;
+
 }
 
 .w-100 {
@@ -82,4 +84,8 @@ html .mat-drawer-container {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
 }
